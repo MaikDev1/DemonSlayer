@@ -28,11 +28,12 @@ body {
     background-image: url("./wallpaper/papel3.jpg");
   }
   66% {
-    background-image: url("/wallpaper/papel\ 4.jpg");
+    background-image: url("./wallpaper/papel\ 4.jpg");
   }
   100% {
-    background-image: url("/wallpaper/p5.jpg");
+    background-image: url("./wallpaper/p5.jpg");
 
+    background-position: center;
     background-size: cover;
   }
 }
