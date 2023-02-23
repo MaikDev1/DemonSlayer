@@ -15,28 +15,28 @@ body {
   margin: 0 auto;
   padding: 0 40px;
 }
+  @keyframes bg-animation {
+    10% {
+      background-image: url("./wallpaper/papel2.webp");
+    }
+    33% {
+      background-image: url("./wallpaper/papel3.jpg");
+    }
+    66% {
+      background-image: url("./wallpaper/papel4.jpg");
+    }
+    100% {
+      background-image: url("./wallpaper/p5.jpg");
+  
+      background-position: center;
+      background-size: cover;
+    }
+}
 
 .home {
   font-size: 25px;
 }
 
-@keyframes bg-animation {
-  10% {
-    background-image: url("./wallpaper/papel2.webp");
-  }
-  33% {
-    background-image: url("./wallpaper/papel3.jpg");
-  }
-  66% {
-    background-image: url("./wallpaper/papel4.jpg");
-  }
-  100% {
-    background-image: url("./wallpaper/p5.jpg");
-
-    background-position: center;
-    background-size: cover;
-  }
-}
 
 .header {
   background: linear-gradient(to left top, white, black);
