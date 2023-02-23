@@ -8,37 +8,37 @@ body {
 }
 
 .container {
-  color:white;
-  background-image: url(/IMG/papel1.jpg);
+  color: white;
+  background-image: url(./IMG/papel1.jpg);
   background-size: cover;
   animation: bg-animation 10s infinite;
   margin: 0 auto;
   padding: 0 40px;
 }
 
-.home{
+.home {
   font-size: 25px;
 }
 
 @keyframes bg-animation {
   0% {
-    background-image: url("/IMG/papel2.webp");
+    background-image: url("./IMG/papel2.webp");
   }
   33% {
-    background-image: url("/IMG/papel3.jpg");
+    background-image: url("./IMG/papel3.jpg");
   }
   66% {
-    background-image: url("/IMG/papel\ 4.jpg");
+    background-image: url("./IMG/papel\ 4.jpg");
   }
   100% {
-    background-image: url("/IMG/p5.jpg");
+    background-image: url("./IMG/p5.jpg");
 
     background-size: cover;
   }
 }
 
 .header {
-  background:linear-gradient(to left top, white, black);
+  background: linear-gradient(to left top, white, black);
   color: #fff;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .menu a {
   padding: 20px;
-  color:white;
+  color: white;
   text-decoration: none;
   padding: 20px;
 }
@@ -80,33 +80,31 @@ body {
   }
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.3);
-  }
-
-.footer1{
-  background:linear-gradient(to right bottom, white, black);
 }
 
-.icone,.img-icone{
-margin-top: 1px;
-padding: 10px;
-text-align: center;
+.footer1 {
+  background: linear-gradient(to right bottom, white, black);
 }
 
-.img-icone{
+.icone,
+.img-icone {
+  margin-top: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-icone {
   margin-right: 50px;
 }
 
-.logo{
-margin-left: 40px;
-margin-top: 20px;
+.logo {
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
-.img-icone,.logo:hover{
+.img-icone,
+.logo:hover {
   transform: scale(1.3);
 }
-
-
-
-
